@@ -2,7 +2,7 @@
 
 This project implements a Reflexion Agent using LangGraph and LangChain to create optimized posts for social media, with an initial focus on LinkedIn. The agent leverages external references and iterative self-reflection to generate accurate and contextually relevant content, significantly reducing the risk of hallucinations commonly associated with large language models.
 
-![image](https://github.com/user-attachments/assets/0102c5c4-0993-457b-be13-bfa16ca1fa1a)
+![image](https://github.com/user-attachments/assets/6e2c803c-3c23-4296-ae00-8ac8993eb85e)
 
 ## Prerequisites
 
