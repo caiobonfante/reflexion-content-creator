@@ -9,10 +9,10 @@ class Reflection(BaseModel):
 class AnswerQuestion(BaseModel):
     """Answer the question."""
 
-    answer: str = Field(description="~500 word detailed answer to the question.")
-    reflection: Reflection = Field(description="Your reflection on the initial answer.")
+    answer: str = Field(description="~400 word detailed post about to the theme.")
+    reflection: Reflection = Field(description="Your reflection on the initial post.")
     search_queries: List[str] = Field(
-        description="1-3 search queries for researching improvements to address the critique of your current answer."
+        description="3 search queries for researching improvements to address the critique of your current post."
     )
     
 class ReviseAnswer(AnswerQuestion):

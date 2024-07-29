@@ -11,7 +11,7 @@ actor_template = ChatPromptTemplate.from_messages(
 
             1. {first_instruction}
             2. Reflect and critique your post. Be severe to maximize improvement.
-            3. Recommend search queries to research information and improve your post.
+            3. Provide 3 search queries to research information and improve the post. Never skip this step, always provide the queries.
             """,
         ),
         MessagesPlaceholder(variable_name="messages"),
