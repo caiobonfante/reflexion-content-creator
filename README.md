@@ -53,6 +53,6 @@ You can view all dependencies in the `pyproject.toml` file.
 
 ## References used in this project
 
-https://blog.langchain.dev/reflection-agents/
-https://github.com/langchain-ai/langgraph/blob/main/examples/reflexion/reflexion.ipynb
-https://www.udemy.com/course/langgraph/learn/
+* https://blog.langchain.dev/reflection-agents/
+* https://github.com/langchain-ai/langgraph/blob/main/examples/reflexion/reflexion.ipynb
+* https://www.udemy.com/course/langgraph/learn/
