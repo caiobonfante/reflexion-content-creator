@@ -2,7 +2,7 @@
 
 This project implements a Reflexion Agent using LangGraph and LangChain to create optimized posts for social media, with an initial focus on LinkedIn. The agent leverages external references and iterative self-reflection to generate accurate and contextually relevant content, significantly reducing the risk of hallucinations commonly associated with large language models.
 
-Entendi. Vou atualizar o README para refletir o uso do Poetry como gerenciador de dependências do projeto. Aqui está a versão revisada das seções relevantes em inglês:
+![image](https://github.com/user-attachments/assets/6e2c803c-3c23-4296-ae00-8ac8993eb85e)
 
 ## Prerequisites
 
@@ -33,7 +33,9 @@ Make sure you have installed:
 
 ## Usage
 
-To run the agent:
+First, edit the file `main.py` and insert your instructions about the post you want to write.
+
+After, to run the agent:
 
 ```
 poetry run python main.py
@@ -50,3 +52,9 @@ All dependencies are managed through Poetry. The main ones include:
 - LangChain
 
 You can view all dependencies in the `pyproject.toml` file.
+
+## References used in this project
+
+* https://blog.langchain.dev/reflection-agents/
+* https://github.com/langchain-ai/langgraph/blob/main/examples/reflexion/reflexion.ipynb
+* https://www.udemy.com/course/langgraph/learn/
