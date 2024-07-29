@@ -33,7 +33,9 @@ Make sure you have installed:
 
 ## Usage
 
-To run the agent:
+First, edit the file `main.py` and insert your instructions about the post you want to write.
+
+After, to run the agent:
 
 ```
 poetry run python main.py
